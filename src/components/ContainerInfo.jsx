@@ -5,7 +5,7 @@ function ContainerInfo({ quote, heandleNewQuote }) {
   return (
     <section className="grid grid-cols-1 justify-items-center">
       
-      <h1 className=" uppercase text-white text-center font-bold font text-4xl drop-shadow-[0_5px_1px_rgba(255,166,69,0.90)] ">Galletas de la Fortuna</h1>
+      <h1 className=" mt-5 uppercase text-white text-center font-bold font text-4xl drop-shadow-[0_5px_1px_rgba(255,166,69,0.90)] ">Galletas de la Fortuna</h1>
       
       <Button heandleNewQuote={heandleNewQuote}/>
           
