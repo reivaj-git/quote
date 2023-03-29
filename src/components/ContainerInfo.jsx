@@ -17,7 +17,7 @@ function ContainerInfo({ quote, heandleNewQuote }) {
         </div>
       </article>
 
-      <article className="mt-60">
+      <article className="mt-48">
         <div className="mx-auto bg-white bg-opacity-80 rounded-md shadow-md max-w-xl">
           <div className="px-6 py-4">
             <p className="text-gray-600">{quote.author}</p>
