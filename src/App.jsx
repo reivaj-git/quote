@@ -2,10 +2,11 @@ import { useState } from "react";
 import ContainerInfo from "./components/ContainerInfo";
 import db from "./db/db.json";
 
-//* ***************** Parte Logica*****************
 
 //? ***************** Arreglo de imagenes *****************
 const images = ["bg1", "bg2", "bg3", "bg4"];
+
+//* ***************** Parte Logica*****************
 
 function App() {
 

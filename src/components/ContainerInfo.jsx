@@ -9,8 +9,8 @@ function ContainerInfo({ quote, heandleNewQuote }) {
       
       <Button heandleNewQuote={heandleNewQuote}/>
           
-      <article className="mt-16">
-        <div className="mx-auto bg-white rounded-md shadow-md max-w-xl h-44 flex items-center">
+      <article className="mt-16 px-4 ">
+        <div className=" h-auto bg-white rounded-md shadow-md max-w-xl flex items-center">
           <div className="px-6 py-4">
             <p className="text-2xl text-gray-600">{quote.phrase}</p>
           </div>
